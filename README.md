@@ -11,4 +11,6 @@ A small program to monitor the working time. Currently, it is only possible to m
 
 Licencja / License: GNU/GPL
 
-Download: <a href="http://ejtracker.aroch.pl/files/ejtracker-0.1.0.zip">EjTracker - 0.1.0</a>
+Download: 
+<a href="http://ejtracker.aroch.pl/files/ejtracker-0.1.0.zip">EjTracker - 0.1.0</a>
+<a href="http://ejtracker.aroch.pl/files/ejtracker-0.1.0-with-dependencies.zip">EjTracker - 0.1.0 (with-dependencies)</a>
