@@ -1,7 +1,7 @@
 EjTracker 0.1.0
 ======
 
-Niewielki program do monitorowania czasu pracy. Obecenie mo¿liwe jest jedynie zarz¹dznia list¹ projektów oraz wykonanych zadañ jednak w miarê rozwoju programu bêd¹ dodawane nowe funkcjonalnoœci. Do uruchomienia wymagana jest Java 8. Jeœli masz jakieœ pytania lub chcesz zg³osiæ problem z dzia³aniem programu wyœlij wiadomoœæ na adres e-mail ejtracker@aroch.pl.
+Niewielki program do monitorowania czasu pracy. Obecenie moÅ¼liwe jest jedynie zarzÄ…dznia listÄ… projektÃ³w oraz wykonanych zadaÅ„ jednak w miarÄ™ rozwoju programu bÄ™dÄ… dodawane nowe funkcjonalnoÅ›ci. Do uruchomienia wymagana jest Java 8. JeÅ›li masz jakieÅ› pytania lub chcesz zgÅ‚osiÄ‡ problem z dziaÅ‚aniem programu wyÅ›lij wiadomoÅ›Ä‡ na adres e-mail ejtracker@aroch.pl.
 
 ======
 
