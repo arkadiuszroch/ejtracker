@@ -32,7 +32,7 @@ public class TasksHistory extends JDialog implements TtDialog
         
         this.setLocationRelativeTo(null);
         
-        this.setTitle("Historia zadań - Ejtracker v.0.1.0");
+        this.setTitle("Historia zadań - Ejtracker v.0.1.1");
         
         TasksHistoryPanel panel = new TasksHistoryPanel();
         panel.init();

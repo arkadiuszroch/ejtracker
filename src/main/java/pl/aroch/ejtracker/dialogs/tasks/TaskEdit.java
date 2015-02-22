@@ -41,7 +41,7 @@ public class TaskEdit extends JDialog implements TtDialog
         
         this.setLocationRelativeTo(null);
         
-        this.setTitle("Edycja zadania - Ejtracker v.0.1.0");
+        this.setTitle("Edycja zadania - Ejtracker v.0.1.1");
         
         final TaskEditPanel panel = new TaskEditPanel(this._id, this);
         panel.init();

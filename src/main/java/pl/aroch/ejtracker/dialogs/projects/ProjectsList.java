@@ -37,6 +37,6 @@ public class ProjectsList extends JDialog implements TtDialog
         
         this.add(panel);
         
-        this.setTitle("Lista projektów - Ejtracker v.0.1.0");
+        this.setTitle("Lista projektów - Ejtracker v.0.1.1");
     }
 }

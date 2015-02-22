@@ -37,7 +37,7 @@ public class UpdateInfo extends JDialog implements TtDialog
     {
         this.setResizable(false);
         
-        this.setTitle("Aktualizacja - Ejtracker v.0.1.0");
+        this.setTitle("Aktualizacja - Ejtracker v.0.1.1");
         
         UpdateInfoPanel panel = new UpdateInfoPanel(this._params, this);
         

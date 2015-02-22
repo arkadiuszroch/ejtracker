@@ -399,7 +399,7 @@ public class Tasks
      */
     public Integer getTimeForProject(Integer projectId)
     {
-        String sql = "SELECT SUM(end_date - start_date) as time FROM tasks WHERE id_project = ?";
+        String sql = "SELECT SUM(end_date - start_date) as time FROM tasks WHERE id_project = ? AND end_date > 0";
         Integer result = 0;
         try
         {

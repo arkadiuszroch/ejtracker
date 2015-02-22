@@ -41,7 +41,7 @@ public class Application extends JFrame
     /**
      * Wersja programu
      */
-    private static Integer[] _currentVersion = {0, 1, 0};
+    private static final Integer[] _currentVersion = {0, 1, 1};
     
     /**
      * Panel z elementami głównego okna
@@ -69,7 +69,7 @@ public class Application extends JFrame
         
         this.setResizable(true);
         
-        this.setTitle("Ejtracker v.0.1.0");
+        this.setTitle("Ejtracker v.0.1.1");
         
         this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         
@@ -110,7 +110,8 @@ public class Application extends JFrame
             this._refreshUpdateChanels(json.getJSONArray("update_chanels"));
 
             String stringVersion = Application.getVersionAsString();
-            if(json.getString("version") != stringVersion)
+            
+            if(!json.getString("version").equalsIgnoreCase(stringVersion))
             {
                 Integer[] version = Application.getVersion();
 

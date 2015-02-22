@@ -1,0 +1,10 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+[0.1.1] - 2015-02-22
+ - Add CHANGELOG file
+ - Fixed wrong time summary on projects list when task(job) is pending
+ - Removed resetting project selection in main window after stopped the task
+
+[0.1.0] - 2015-01-31
+ - Released the first version

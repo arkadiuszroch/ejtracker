@@ -595,7 +595,6 @@ public class MainPanel extends TtPanel implements TtObserver
             this._startTime = 0;
             this._timer.stop();
             this._time.setText("00:00");
-            this._projects.setSelectedIndex(0);
             this._task.setText("");
             
             TtObservable o = TtObservable.getInstance(TtObservable.TASK_ADDED);
