@@ -68,6 +68,6 @@ public class ProjectEdit extends JDialog implements TtDialog
         
         this.add(panel);
         
-        this.setTitle(((this._id == 0) ? "Dodaj projekt" : "Edytuj projekt") + " - Ejtracker v.0.1.1");
+        this.setTitle(((this._id == 0) ? "Dodaj projekt" : "Edytuj projekt") + " - Ejtracker v.0.1.2");
     }
 }

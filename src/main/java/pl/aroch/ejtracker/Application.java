@@ -41,7 +41,7 @@ public class Application extends JFrame
     /**
      * Wersja programu
      */
-    private static final Integer[] _currentVersion = {0, 1, 1};
+    private static final Integer[] _currentVersion = {0, 1, 2};
     
     /**
      * Panel z elementami głównego okna
@@ -69,7 +69,7 @@ public class Application extends JFrame
         
         this.setResizable(true);
         
-        this.setTitle("Ejtracker v.0.1.1");
+        this.setTitle("Ejtracker v.0.1.2");
         
         this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         

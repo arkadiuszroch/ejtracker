@@ -161,7 +161,7 @@ public class ProjectsListPanel extends TtPanel implements TtObserver
             
             if(time.getHours() > 0)
             {
-                timeText.append(String.format("%02d:", time.getHours()));
+                timeText.append(String.format("%02d:", time.getAsHours()));
             }
 
             timeText.append(String.format("%02d:%02d", time.getMinutes(), time.getSeconds()));

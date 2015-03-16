@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+[0.1.2] - 2015-03-16
+ - Fixed wrong time summary, when it was greater than 24 hours
+
 [0.1.1] - 2015-02-22
  - Add CHANGELOG file
  - Fixed wrong time summary on projects list when task(job) is pending

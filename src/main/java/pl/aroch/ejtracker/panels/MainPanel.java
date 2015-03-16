@@ -445,7 +445,7 @@ public class MainPanel extends TtPanel implements TtObserver
                 panel.setPreferredSize(new Dimension(Short.MIN_VALUE, 20));
 
                 panel.add(new JLabel(list.getDay()), BorderLayout.LINE_START);
-                panel.add(new JLabel(String.format("%02d:%02d:%02d", list.getTime().getHours(), list.getTime().getMinutes(), list.getTime().getSeconds())), BorderLayout.LINE_END);
+                panel.add(new JLabel(String.format("%02d:%02d:%02d", list.getTime().getAsHours(), list.getTime().getMinutes(), list.getTime().getSeconds())), BorderLayout.LINE_END);
 
                 this._tasksPanel.add(panel);
 
@@ -678,7 +678,7 @@ public class MainPanel extends TtPanel implements TtObserver
 
         Integer seconds = time.getSeconds();
         Integer minutes = time.getMinutes();
-        Integer hours = time.getHours();
+        long hours = time.getAsHours();
 
         StringBuilder timeText = new StringBuilder();
 

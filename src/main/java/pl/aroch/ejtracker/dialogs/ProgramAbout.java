@@ -32,7 +32,7 @@ public class ProgramAbout extends JDialog implements TtDialog
         
         this.setLocationRelativeTo(null);
         
-        this.setTitle("O programie - Ejtracker v.0.1.1");
+        this.setTitle("O programie - Ejtracker v.0.1.2");
         
         ProgramAboutPanel panel = new ProgramAboutPanel(this);
         

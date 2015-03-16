@@ -39,7 +39,7 @@ public class ReleaseInfo extends JDialog implements TtDialog
         
         this.setLocationRelativeTo(null);
         
-        this.setTitle("Co nowego - Ejtracker v.0.1.1");
+        this.setTitle("Co nowego - Ejtracker v.0.1.2");
         
         ReleaseInfoPanel panel = new ReleaseInfoPanel(this._text, this);
         
